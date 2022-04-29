@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    background-image: url('/projetoFinal/css/images/fundo_quiz.png');
+    background-size: 100%;
+    background-color:rgba(166, 81, 236, 0.438);
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    width: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alternativas {
+    font-size: 1.5em;
+    width: 40%;
+}
+
+.botao-responder {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+
+    font-family: 'Permanent Marker', cursive;
+    color: #c8a2c8;
+    font-size: 1em;
+    cursor: pointer;
+}
