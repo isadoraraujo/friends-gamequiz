@@ -25,6 +25,18 @@ main {
 }
 
 img {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 30%;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+
+    font-family: 'Permanent Marker', cursive;
+    color: #c8a2c8;
+    font-size: 1em;
+    cursor: pointer;
 }

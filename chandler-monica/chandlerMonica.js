@@ -3,7 +3,7 @@ function primeiraFaseChandlerMonica (resposta) {
     if (Number(pergunta) === resposta) {
         location.assign("/projetoFinal/chandler-monica/chandlerMonicaSegunda.html")
     }
-    else if (Number(pergunta) > 4) {
+    else if (Number(pergunta) != 1 && Number(pergunta) != 2 && Number(pergunta) !=3 && Number(pergunta) != 4) {
         alert("Essa resposta não existe no sistema")
     }
     else {
@@ -16,7 +16,7 @@ function segundaFaseChandlerMonica (resposta) {
     if (Number(pergunta) === resposta) {
         location.assign("/projetoFinal/chandler-monica/chandlerMonicaTerceira.html")
     }
-    else if (Number(pergunta) > 4) {
+    else if (Number(pergunta) != 1 && Number(pergunta) != 2 && Number(pergunta) !=3 && Number(pergunta) != 4) {
         alert("Essa resposta não existe no sistema")
     }
     else {
@@ -29,7 +29,7 @@ function terceiraFaseChandlerMonica (resposta) {
     if (Number(pergunta) === resposta) {
         location.assign("/projetoFinal/chandler-monica/ganhouChandlerMonica.html")
     }
-    else if (Number(pergunta) > 2) {
+    else if (Number(pergunta) != 1 && Number(pergunta) != 2) {
         alert("Essa resposta não existe no sistema")
     }
     else {
