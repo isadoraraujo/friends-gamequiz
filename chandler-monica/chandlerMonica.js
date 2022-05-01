@@ -1,29 +1,38 @@
-function firstStage(answer) {
-    let ask = prompt("Qual a resposta?");
-    if (Number(ask) === answer) {
-        location.assign("/projetoFinal/chandler-monica/secondStage.html")
+function primeiraFaseChandlerMonica (resposta) {
+    let pergunta = prompt("Qual a resposta?")
+    if (Number(pergunta) === resposta) {
+        location.assign("/projetoFinal/chandler-monica/chandlerMonicaSegunda.html")
+    }
+    else if (Number(pergunta) > 4) {
+        alert("Essa resposta não existe no sistema")
     }
     else {
-        location.assign("/projetoFinal/chandler-monica/gameOver.html")
+        location.assign("/projetoFinal/chandler-monica/perdeuChandlerMonica.html")
     }
 }
 
-function secondStage(answer) {
-    let ask = prompt("Qual a resposta?");
-    if (Number(ask) === answer) {
-        location.assign("/projetoFinal/chandler-monica/thirdStage.html")
+function segundaFaseChandlerMonica (resposta) {
+    let pergunta = prompt("Qual a resposta?");
+    if (Number(pergunta) === resposta) {
+        location.assign("/projetoFinal/chandler-monica/chandlerMonicaTerceira.html")
+    }
+    else if (Number(pergunta) > 4) {
+        alert("Essa resposta não existe no sistema")
     }
     else {
-        location.assign("/projetoFinal/chandler-monica/gameOver.html")
+        location.assign("/projetoFinal/chandler-monica/perdeuChandlerMonica.html")
     }
 }
 
-function thirdStage(answer) {
-    let ask = prompt("Qual a resposta?")
-    if (Number(ask) === answer) {
-        location.assign("/projetoFinal/chandler-monica/winChandlerMonica.html")
+function terceiraFaseChandlerMonica (resposta) {
+    let pergunta = prompt("Qual a resposta?")
+    if (Number(pergunta) === resposta) {
+        location.assign("/projetoFinal/chandler-monica/ganhouChandlerMonica.html")
+    }
+    else if (Number(pergunta) > 2) {
+        alert("Essa resposta não existe no sistema")
     }
     else {
-        location.assign("/projetoFinal/chandler-monica/gameOver.html")
+        location.assign("/projetoFinal/chandler-monica/perdeuChandlerMonica.html")
     }
 }
