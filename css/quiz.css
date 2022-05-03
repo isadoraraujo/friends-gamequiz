@@ -11,7 +11,7 @@ body {
     color: white;
     font-family: 'Permanent Marker', cursive;
     font-weight: 500;
-    background-image: url('/projetoFinal/css/images/fundo_quiz.png');
+    background-image: url('../assets/images/fundo_quiz.png');
     background-size: 100%;
     background-color:rgba(166, 81, 236, 0.438);
     width: 100%;

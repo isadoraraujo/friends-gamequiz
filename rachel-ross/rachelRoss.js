@@ -8,9 +8,9 @@ function primeiraFaseRachelRoss (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/rachel-ross/rachelRossSegunda.html')
+        location.assign('rachelRossSegunda.html')
     } else {
-        location.assign('/projetoFinal/rachel-ross/perdeuRachelRoss.html')
+        location.assign('perdeuRachelRoss.html')
     }
     
 }
@@ -25,9 +25,9 @@ function segundaFaseRachelRoss (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/rachel-ross/rachelRossTerceira.html')
+        location.assign('rachelRossTerceira.html')
     } else {
-        location.assign('/projetoFinal/rachel-ross/perdeuRachelRoss.html')
+        location.assign('perdeuRachelRoss.html')
     }
 }
 
@@ -40,8 +40,8 @@ function terceiraFaseRachelRoss (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/rachel-ross/ganhouRachelRoss.html')
+        location.assign('ganhouRachelRoss.html')
     } else {
-        location.assign('/projetoFinal/rachel-ross/perdeuRachelRoss.html')
+        location.assign('perdeuRachelRoss.html')
     }
 }

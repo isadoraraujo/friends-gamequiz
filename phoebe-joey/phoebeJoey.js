@@ -8,9 +8,9 @@ function primeiraFasePhoebeJoey (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/phoebe-joey/phoebeJoeySegunda.html')
+        location.assign('phoebeJoeySegunda.html')
     } else {
-        location.assign('/projetoFinal/phoebe-joey/perdeuPhoebeJoey.html')
+        location.assign('perdeuPhoebeJoey.html')
     }
     
 }
@@ -25,9 +25,9 @@ function segundaFasePhoebeJoey (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/phoebe-joey/phoebeJoeyTerceira.html')
+        location.assign('phoebeJoeyTerceira.html')
     } else {
-        location.assign('/projetoFinal/phoebe-joey/perdeuPhoebeJoey.html')
+        location.assign('perdeuPhoebeJoey.html')
     }
 }
 
@@ -40,8 +40,8 @@ function terceiraFasePhoebeJoey (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/phoebe-joey/ganhouPhoebeJoey.html')
+        location.assign('ganhouPhoebeJoey.html')
     } else {
-        location.assign('/projetoFinal/phoebe-joey/perdeuPhoebeJoey.html')
+        location.assign('perdeuPhoebeJoey.html')
     }
 }

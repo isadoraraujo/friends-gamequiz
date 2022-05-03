@@ -8,9 +8,9 @@ function primeiraFaseChandlerMonica (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/chandler-monica/chandlerMonicaSegunda.html')
+        location.assign('chandlerMonicaSegunda.html')
     } else {
-        location.assign('/projetoFinal/chandler-monica/perdeuChandlerMonica.html')
+        location.assign('perdeuChandlerMonica.html')
     }
     
 }
@@ -25,9 +25,9 @@ function segundaFaseChandlerMonica (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/chandler-monica/chandlerMonicaTerceira.html')
+        location.assign('chandlerMonicaTerceira.html')
     } else {
-        location.assign('/projetoFinal/chandler-monica/perdeuChandlerMonica.html')
+        location.assign('perdeuChandlerMonica.html')
     }
 }
 
@@ -40,8 +40,8 @@ function terceiraFaseChandlerMonica (resposta) {
 
 }
     if (Number(pergunta) === resposta) {
-        location.assign('/projetoFinal/chandler-monica/ganhouChandlerMonica.html')
+        location.assign('ganhouChandlerMonica.html')
     } else {
-        location.assign('/projetoFinal/chandler-monica/perdeuChandlerMonica.html')
+        location.assign('perdeuChandlerMonica.html')
     }
 }
